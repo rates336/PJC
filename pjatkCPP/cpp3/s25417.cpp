@@ -8,7 +8,6 @@ using namespace std;
 
 int recPow(int n, int x) {
     int result = pow(n, x);
-
     x--;
     if(x >= 0) {
         recPow(n, x);
